@@ -11,13 +11,14 @@ Get vlc installed. This module won t check or install it for you.
 ### Install
 
 ```
-npm i node-screencapture
+npm i node-screencapture -g
 ```
 
 ### Usage
 
 ```
-  Usage: index [options]
+  Usage: node-screencapture [options]
+  node-screencapture --output some.png
 
   Options:
 
@@ -26,4 +27,18 @@ npm i node-screencapture
     --format <format>        File format jpg, png
     -o, --output <filePath>  Output file path
     --vlc <vlcPath>          VLC binary path
+```
+
+### Api
+
+```js
+var shooter = new VlcScreenshot();
+
+shooter.format = program.format || 'png';
+shooter.vlcPath = program.vlc || 'cvlc';
+
+shooter.shoot(program.output, function(){
+  console.error('All done  !');
+});
+
 ```

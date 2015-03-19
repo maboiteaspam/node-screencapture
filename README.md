@@ -29,7 +29,7 @@ npm i node-screencapture -g
     --vlc <vlcPath>          VLC binary path
 ```
 
-### Api
+### API
 
 ```js
 var shooter = new VlcScreenshot();

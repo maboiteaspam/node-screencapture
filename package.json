@@ -2,6 +2,7 @@
   "name": "node-screencapture",
   "version": "1.0.0",
   "description": "Desktop screencapture using nodejs and vlc",
+  "bin": "bin.js",
   "main": "index.js",
   "directories": {
     "test": "test"

@@ -18,6 +18,7 @@ npm i node-screencapture -g
 
 ```
   Usage: node-screencapture [options]
+  
   node-screencapture --output some.png
 
   Options:

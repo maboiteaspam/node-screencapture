@@ -33,6 +33,9 @@ npm i node-screencapture -g
 ### API
 
 ```js
+
+var VlcScreenshot = require('node-screencapture');
+
 var shooter = new VlcScreenshot();
 
 shooter.format = program.format || 'png';

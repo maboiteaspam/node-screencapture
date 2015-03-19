@@ -11,9 +11,11 @@ program
   .option('--vlc <vlcPath>', 'VLC binary path')
   .parse(process.argv);
 
-if(!program.output){
-  console.error('output is a required argument')
-  return process.exit();
+if (!program.output){
+  console.error('output is a required argument');
+  /*eslint-disable*/
+  process.exit();
+  /*eslint-enable */
 }
 
 var shooter = new VlcScreenshot();

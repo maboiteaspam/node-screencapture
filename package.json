@@ -1,0 +1,31 @@
+{
+  "name": "node-screencapture",
+  "version": "1.0.0",
+  "description": "Desktop screencapture using nodejs and vlc",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maboiteaspam/node-screencapture"
+  },
+  "keywords": [
+    "nodejs",
+    "screencapture",
+    "screenshot"
+  ],
+  "author": "maboiteaspam",
+  "license": "WTF",
+  "bugs": {
+    "url": "https://github.com/maboiteaspam/node-screencapture/issues"
+  },
+  "homepage": "https://github.com/maboiteaspam/node-screencapture",
+  "dependencies": {
+    "commander": "^2.7.1",
+    "temp": "^0.8.1"
+  }
+}
